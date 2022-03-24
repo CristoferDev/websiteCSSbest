@@ -1,0 +1,292 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border: solid 1px transparent;
+    /*background-color:rgb(197, 177, 127); */
+    margin: 0;
+    padding: 0 65px;
+}
+
+/*     -----------------------    HEADER   --------------------------------------     */
+/* BROSWERS */
+.broswer__container{
+    top: 10px;
+    border: 1px solid transparent;    /* border anti-fusion de margenes */
+    /*background-color: rgb(203, 236, 15); */
+    height: 55px;
+    margin: 5px 0 10px 0;
+    position: relative;
+    right: 15px;
+  
+}
+
+
+
+/*  logo__container  */
+.logo__container{
+    
+    position: absolute;
+   /* background-color: blue; */
+    display: inline-block;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    transform: translateX(20px) translateY(-25%);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+/*   broswer__item  */
+.broswer__item{
+    /*background-color: tomato; */
+    text-align: center;
+    color: rgb(3, 3, 3);
+    margin: 8px;
+    position: relative;
+    text-decoration: none;
+    transform: translateY(13px);
+    float: right;
+    right: 10px;
+    height: 19px;
+    width: 100px;
+    border: solid 1px black; 
+    border-radius: 10px 10px 30px 10px;
+    
+   
+} 
+
+
+/*           --------------------[  HERO  ]---------------------------      */
+
+    
+/*       CONTAINER GENERIC      */  
+.Generico__header{
+    top: 90px;
+    height: 550px;
+    border: transparent 1px solid;
+    padding: 0;
+    position: relative;
+    
+    
+}
+
+.header__illustration{
+    display: inline-block;
+    position: relative;
+    
+    /*background-color: lime; */
+    margin: 10px 10px 0 0 ;
+    margin-left: 0;
+}
+
+.header__text{
+    width: 380px;
+    position: relative;
+    /*border: solid 1px black; */
+    /*border-radius: 10px 10px 40px 10px;*/
+    text-align: center;
+    left: 23px;
+    transform: translateY(-150%);
+    display: inline-block;
+   
+}   
+
+
+/*           --------------------[  MAIN  ]---------------------------      */
+
+main{
+    margin: 0;
+    padding: 0;
+    height: 1700px;
+    /*background-color:transparent; */
+
+}
+
+/*    CONTENEDOR GENERIC MAIN    */
+
+.generico__main{
+    background-color: transparent;
+    
+}
+
+
+.aboutMe__container{
+    border: 1px solid transparent;
+    /*background-color: rgb(49, 247, 220);*/
+    position: relative;
+    top: 170px;
+    padding: 0;
+
+    margin: 0 0 39px 0;
+}
+/*      SECTIONS          */
+.section{
+    height: 800px;
+}
+
+
+/*  my name  */
+.aboutMe__title{
+    position: absolute;
+    margin: 20px 0 0 15px;
+    border: 1px solid transparent;
+    width: 90px;
+   /* background-color: transparent;*/
+
+    display: inline-block;
+    position: absolute;
+    
+}
+
+
+/*  my Piture  */
+.aboutMe__piture{
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    border-radius: 50%;
+}
+
+
+/*  NAME AND COPY ABOUT  */
+.aboutMe__text{
+    text-align: center; /*--Solo para acomodar el text dentro de su div --*/
+    
+    display: inline-block;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+
+/*  my name  */
+.aboutMe__name{
+    margin: 0;
+    font-size: x-large;
+}
+
+
+/*copy, my description */
+.aboutMe__copy{
+    margin: 0;
+    margin-top: 5px;
+    
+}
+
+
+
+/*  --  PARAGRAH ---  */
+.paragrah__container{
+    /*ackground-color:violet;*/
+    
+    top: 450px;
+    position: relative;
+    
+}
+
+.paragrah__container--left{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    position: absolute;
+    width: 620px;
+    height: 275px;
+    z-index: 0;
+    left: 20px;
+    top: 0;
+    border-radius: 10px;
+    text-align: center;
+} 
+
+.paragrah__container--right{
+    background-color: cadetblue;
+    border: solid 1px black; 
+    width: 600px;
+    position: absolute;
+    left: 650px;
+    width: 320px;
+    height: 275px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.paragrah{
+    position: absolute; 
+    transform: translateY(100%);
+}
+
+
+
+/* PROJECTS */
+
+.project__title{
+    width: 140px;
+    background-color: turquoise;
+}
+
+.section__projects{
+    background-color: crimson;    
+    border: 1px solid transparent;
+    position: relative;
+    
+    top: 200px;
+
+}
+
+.projects__container{
+    
+    background-color: rgb(168, 241, 180);
+    height: 400px;
+    width: 990px;
+    border: solid 1px;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.projects{
+    
+    width: 247px;
+    height:300px;
+    margin: 5;
+    padding: 0;
+    float: left;
+   text-align: center;
+}
+
+
+.project__one{
+    background-color: darkorange;
+}
+
+.project__two{
+    background-color: darkred;
+}
+
+.project__three{
+    background-color: dimgray;
+}
+
+.project__four{
+    background-color: gold;
+}
+
+
+
+
+/*           --------------------[  ASIDE  ]---------------------------      */
+
+
+/*    CONTENEDOR GENERIC ASIDE   */
+
+
